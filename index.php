@@ -14,10 +14,10 @@ $quote = "Memories, even your most precious ones, fade surprisingly quickly. But
     <title>Bad-Words</title>
 </head>
 <body>
-
-    <?php echo $quote; ?>
-    <?php echo str_replace('surprisingly', '***', $quote); ?>
-
+    <p></p>
+        <?php echo $quote; ?>
+        <?php echo str_replace('surprisingly', '***', $quote); ?>
+    </p>
 
 </p>
 </body>
