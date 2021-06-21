@@ -16,9 +16,9 @@ $quote = "Memories, even your most precious ones, fade surprisingly quickly. But
 <body>
 
     <?php echo $quote; ?>
-    <?php echo str_replace('surprisingly', $badWord, $quote); ?>
+    <?php echo str_replace('surprisingly', '***', $quote); ?>
 
 
-</p>***
+</p>
 </body>
 </html>
