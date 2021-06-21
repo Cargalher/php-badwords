@@ -18,7 +18,7 @@ $quote = "Memories, even your most precious ones, fade surprisingly quickly. But
         <?php echo $quote.strlen($quote); ?>
     </p> 
     <p>
-        <?php echo str_replace('surprisingly', '***', $quote); ?>
+        <?php echo str_replace('surprisingly', '***', $quote).strlen; ?> 
 
     </p>
 
